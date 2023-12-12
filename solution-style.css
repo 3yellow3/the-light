@@ -1,0 +1,124 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    background-color: #222528;
+}
+
+h1,h2,h4,h5{font-family: 'Black Han Sans', sans-serif;}
+.black-han-sans-font {
+    font-family: 'Black Han Sans', sans-serif;
+    color:white;}
+
+.josefin-sans{font-family: 'Josefin Sans', sans-serif;
+color:white;}
+
+.Whisper{font-family: 'Whisper', cursive;}
+
+h3{
+font-family: 'Whisper', cursive;
+}
+.ibm-plex-kr-font{
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.hahmlet{font-family: 'Hahmlet', serif;}
+
+
+
+
+/* 네비게이션 영역 */
+.navbar{
+    background-color: rgb(12, 12, 28);
+}
+.offcanvas-header{
+    background-color: rgb(12, 12, 28);
+}
+.offcanvas-body{
+    background-color: rgb(12, 12, 28);
+}
+.nave-menu{
+    color:grey;
+}
+.nav-link:hover{
+    color: white ;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: rgb(104, 175, 209) !important;
+}
+
+
+/* 헤더 영역 */
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/main-wave.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    margin-top: 3px;
+}
+
+/* 콘서트 영역 */
+#concert-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/concert2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#concert-sub-header {
+    background-color: #090910;
+
+}
+
+/* 전시 */
+#museum-header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/museum.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* 캘린더 */
+#calender-header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/calender.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.table-active{
+    background-color:gray;
+}
+.table-hover{
+    background-color: rgba(135, 244, 244, 0.607);
+}
+
+
+/* 문의*/
+#ask-header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/main-wave.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* 서비스 섹션 */
+.card-hover:hover {
+    background-color: #c7cfef13;
+}
+
+
+/* SNS 영역 */
+#sns-links {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/main-wave.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* 뉴스 섹션 */
+#news {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/news-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
