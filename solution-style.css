@@ -109,7 +109,7 @@ header {
 }
 
 
-/* SNS 영역 */
+/* SNS */
 #sns-links {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/main-wave.jpg);
     background-size: cover;
@@ -117,10 +117,3 @@ header {
     background-attachment: fixed;
 }
 
-
-/* 뉴스 섹션 */
-#news {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/news-bg.jpg);
-    background-size: cover;
-    background-position: center;
-}
