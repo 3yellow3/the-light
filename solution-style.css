@@ -1,5 +1,5 @@
 body {
-    font-family: 'Afacad', sans-serif;
+    font-family: 'IBM Plex Sans KR', sans-serif;
     color: white;
     background-color: #222528;
 }
@@ -8,6 +8,8 @@ h1,h2,h4,h5{font-family: 'Black Han Sans', sans-serif;}
 .black-han-sans-font {
     font-family: 'Black Han Sans', sans-serif;
     color:white;}
+
+.afacad{font-family: 'Afacad', sans-serif;}
 
 .josefin-sans{font-family: 'Josefin Sans', sans-serif;
 color:white;}
